@@ -1,0 +1,93 @@
+body{
+  overflow-x: hidden;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 100px; /* Adjust the spacing between each item */
+  }
+  .Background{
+    background-image: url(images/Home-Hero-2024-RA-1x.webp);
+ height: 550px;
+background-size: cover;
+width: 100%;
+}
+
+ @media (max-width: 768px) {
+  .Background {
+    /* background-position: center; */
+    height: 650px;
+  }
+} 
+.text{
+  font-family: museo-sans, sans-serif;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .text{
+    text-align: center;
+    /* font-size: 10px; */
+  }
+}
+
+.text1{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  
+}
+.text2{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+}
+.text3{
+  color: white;
+  font-size: 20px;
+  
+}
+.button{
+  background-color: #000083;
+  color: white;
+  border: none;
+  
+  padding:5px 5px;
+  font-size: 18px;
+}
+.button:hover{
+  background-color: rgb(83, 83, 199);
+}
+.container1{
+
+  margin-top: 100px;
+  /* display: grid;
+  grid-template-columns: 30% 30% 30%;
+  /* justify-content: space-around; */
+  /* column-gap: 10px;
+  margin-left: 70px; */ 
+
+  }
+  .publish{
+font-family: museo-sans, sans-serif;
+Font-size: 20px;
+display: flex;
+  }
+
+  @media screen and (max-width: 768px) {
+    .publish{
+      display: block;
+    }
+  }
+  .img1{
+    width: 200px;
+  }
+  .img2{
+    
+    height: 400px;
+  }
+  .background1{
+    background-image: url(images/pricingcalc-main-banner-as-image-banner-1x.webp);
+    height: 500px;
+  }
