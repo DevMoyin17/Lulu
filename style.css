@@ -22,9 +22,11 @@ position: relative;
 .text1{
   color: white;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   position: absolute;
   top: 100px;
+  left: 50px;
+  line-height: 1;
 }
 @media screen and (max-width: 768px) {
   .text1{
@@ -35,34 +37,37 @@ top: 50px;
 }
 .text3{
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   position: absolute;
   top: 200px;
+  left: 50px;
 }
 @media screen and (max-width: 768px) {
   .text3{
-    font-size: px;
+    font-size: 15px;
     text-align: center;
-    top: 130px;
-    left: 0px;
+    top: 100px;
+    left: 5px;
   }
 }
 .button{
   background-color: #000083;
   color: white;
   border: none;
-  padding:5px 5px;
+  padding:13px;
   font-size: 18px;
   position: absolute;
-  top:370px ;
-  width: 210px;
+  top:320px ;
+  width: 250px;
+  left: 50px;
 }
 @media screen and (max-width: 768px) {
   .button{
-    top: 220px;
+    top: 200px;
     left: 120px;
     font-size: 10px;
-    width: 150px;
+    width: 130px;
+    padding: 10px;
   }
 }
 .button1{
@@ -72,6 +77,13 @@ top: 50px;
   padding:5px 5px;
   font-size: 15px;
   width: 200px;
+}
+@media screen and (max-width: 768px) {
+  .button1{
+    font-size: 10px;
+    width: 150px;
+  
+  }
 }
 .button:hover{
   background-color: rgb(83, 83, 199);
@@ -120,6 +132,7 @@ top: 50px;
   @media screen and (max-width: 768px) {
     .background1{
       height: 300px;
+
     }
   }
   
@@ -129,7 +142,8 @@ top: 50px;
     color: white;
     font-weight: bold;
     font-size: 25px;
-    margin-left: 100px;
+    margin-left: 50px;
+    
   }
   .quality{
     position: absolute;
@@ -139,31 +153,23 @@ top: 50px;
     font-size: 20px;
      /* line-height: 1px;  */
   }
-  .button2{
-    position: absolute;
-    top: 280px;
-    left: 180px;
-  }
+ 
   @media screen and (max-width: 768px) {
     .quality{
       font-size: 10px;
       top: 150px;
+      text-align: center;
+      left: 20px;
       
     }
   }
   @media screen and (max-width: 768px) {
     .book{
-      margin-left: 70px;
-      font-size: 15px;
+      left: 30px;
+      font-size: 18px;
     }
   }
-  @media screen and (max-width: 768px) {
-    .button2{
-      left: 120px;
-      top: 220px;
-      font-size: 10px;
-    }
-  }
+
   .background2{
     background-image: url(images/lulu-direct-image-banner.webp);
     height: 350px;
@@ -174,6 +180,8 @@ top: 50px;
     .background2{
       height: 250px;
       top: 20px;
+      background-position: center;
+
     }
   }
   .books{
@@ -182,7 +190,7 @@ top: 50px;
     color: white;
     font-weight: bold;
     font-size: 30px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .booksa{
     position: absolute;
@@ -190,7 +198,7 @@ top: 50px;
     color: white;
     font-weight: bold;
     font-size: 30px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
   .lulu{
     position: absolute;
@@ -202,16 +210,16 @@ top: 50px;
   .button3{
     position: absolute;
     top:270px ;
-    left: 200px;
+    left: 50px;
     background-color: #000083;
   color: white;
   border: none;
-  padding:5px 5px;
+  padding:10px;
   font-size: 15px;
   border-radius: 2px;
   width: 150px;
   }
-  .button3:hover{
+  .button3:hover, .button4:hover, .button8:hover, .button7:hover{
     background-color: rgb(83, 83, 199);
   }
   @media screen and (max-width: 768px) {
@@ -222,10 +230,11 @@ top: 50px;
   }
   @media screen and (max-width: 768px) {
     .button3{
-      left: 120px;
+      left: 50px;
       top: 170px;
       font-size: 10px;
       width: 100px;
+      padding: 5px;
     }
   }
   .background3{
@@ -239,28 +248,29 @@ top: 50px;
     .background3{
       height: 250px;
       top: 40px;
+      background-position: center;
     }
   }
   .button4{
     position: absolute;
     top:240px ;
-    left: 150px;
+    left: 50px;
     background-color: #000083;
   color: white;
   border: none;
-  padding:5px 5px;
+  padding:10px;
   font-size: 15px;
   border-radius: 2px;
-  width: 200px;
+  width: 230px;
   }
   .button5{
     position: absolute;
     top:280px ;
-    left: 200px;
+    left: 50px;
     background-color: #6262f3;
   color:rgb(11,0,131);
   border: none;
-  padding:5px 5px;
+  padding:10px;
   font-size: 15px;
   border-radius: 2px;
   width: 150px;
@@ -268,29 +278,31 @@ top: 50px;
   @media screen and (max-width: 768px) {
     .button5{
       top: 220px;
-      left: 120px;
+      left: 130px;
       font-size: 10px;
       width: 100px;
+      padding: 5px;
     }
   }
   .button6{
     position: absolute;
     top:180px ;
-    left: 240px;
+    left: 15px;
     background-color: #6262f3;
   color:rgb(11,0,131);
   border: none;
-  padding:5px 5px;
+  padding:10px;
   font-size: 15px;
   border-radius: 2px;
   width: 150px;
   }
   @media screen and (max-width: 768px) {
     .button6{
-          left: 150px;
+          left: 20px;
           top: 150px;
           font-size: 10px;
           width: 100px;
+          padding: 5px;
         }
       }
   .button5:hover, .button6:hover{
@@ -298,7 +310,7 @@ top: 50px;
   }
   @media screen and (max-width: 768px) {
     .button4{
-      left: 100px;
+      left: 50px;
       top: 170px;
       font-size: 10px;
       width: 150px;
@@ -307,13 +319,11 @@ top: 50px;
   @media screen and (max-width: 768px) {
     .booksa{
       font-size: 20px;
-      margin-left: 70px;
     }
   }
   @media screen and (max-width: 768px) {
     .books{
       font-size: 20px;
-      margin-left: 60px;
     }
   }
   .background4{
@@ -327,34 +337,34 @@ top: 50px;
       .background4{
         height: 250px;
         top: 60px;
+        background-position: center;
       }
     }
     .guide{
       position: absolute;
       top: 50px;
       color: white;
-       margin-left: 150px; 
+      left: 22px; 
       font-size: 30px;
       font-weight: bold;
     }
     @media screen and (max-width: 768px) {
       .guide{
         font-size: 20px;
-        margin-left: 100px;
       }
     }
     .get{
       position: absolute;
       top: 100px;
       color: white;
-       margin-left: 50px; 
+      left: 20px; 
       font-size: 20px;
     }
     @media screen and (max-width: 768px) {
       .get{
         font-size: 10px;
-        margin-left: 50px;
         top: 90px;
+        
       }
     }
   
@@ -369,20 +379,21 @@ top: 50px;
     .background5{
       height: 230px;
       top: 80px;
+      background-position: center;
+
     }
   }
   .bookstore{
     position: absolute;
     top: 50px;
     color: white;
-     margin-left: 200px; 
+     left: 25px; 
     font-size: 30px;
     font-weight: bold;
   }
   @media screen and (max-width: 768px) {
     .bookstore{  
       font-size: 20px;
-      margin-left: 80px;
     }
   }
   .novels{
@@ -402,21 +413,22 @@ top: 50px;
   .button7{
     position: absolute;
     top:180px ;
-    left: 270px;
+    left: 50px;
     background-color: #000083;
   color:white;
   border: none;
-  padding:5px 5px;
+  padding:10px;
   font-size: 15px;
   border-radius: 2px;
   width: 130px;
   }
   @media screen and (max-width: 768px) {
     .button7{
-      left: 140px;
+      left: 20px;
       top: 150px;
       font-size: 10px;
       width: 100px;
+      padding: 5px;
     }
   }
   .background6{
@@ -431,15 +443,17 @@ top: 50px;
     .background6{  
      top: 110px;
      height: 250px;
+
     }
   }
 
   .started{
     position: absolute;
-    top: 70px;
+    top: 60px;
     color: white;
     font-size: 30px;
     font-weight: bold;
+    left: 25px;
   }
   @media screen and (max-width: 768px) {
     .started{  
@@ -449,9 +463,10 @@ top: 50px;
   }
   .free{
     position: absolute;
-    top: 120px;
+    top: 110px;
     color: white; 
     font-size: 20px;
+    left: 25px;
   }
   @media screen and (max-width: 768px) {
     .free{  
@@ -461,19 +476,21 @@ top: 50px;
   }
   .button8{
     position: absolute;
-    top:250px ;
+    top:230px ;
     background-color: #000083;
   color:white;
   border: none;
-  padding:5px 5px;
+  padding:10px;
   font-size: 15px;
   border-radius: 2px;
   width: 230px;
+  left: 25px;
   }
   @media screen and (max-width: 768px) {
     .button8{
       top: 160px;
       font-size: 10px;
-      width: 150px;
+      width: 180px;
+      padding: 5px;
     }
   }
